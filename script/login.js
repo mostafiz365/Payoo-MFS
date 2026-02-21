@@ -9,7 +9,7 @@ document.getElementById('login-btn').addEventListener('click',
         if(contactNumber === '01861254722' && pin === '1234'){
             alert('login Successfully');
             // window.location.replace("/home.html");
-            window.location.assign("/home.html")
+            window.location.assign("home.html")
         }
         else{
             alert('login failed');

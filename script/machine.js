@@ -19,10 +19,12 @@ function showOnly(id){
     const addMoney = document.getElementById('add-money');
     const cashOut = document.getElementById('cashout');
     const transfer = document.getElementById('transfer');
+    const payBill = document.getElementById('pay-bill');
 
     addMoney.classList.add('hidden');
     cashOut.classList.add('hidden');
     transfer.classList.add('hidden');
+    payBill.classList.add('hidden');
 
     const selected = document.getElementById(id);
     selected.classList.remove('hidden');
